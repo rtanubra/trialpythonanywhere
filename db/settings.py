@@ -25,7 +25,7 @@ SECRET_KEY = '8*y*3#&kw)2s@tu_tkpf+nogi9y83=@fkd-uyg-@abxdsyc(n&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rtanubra.pythonanywhere.com']
 
 
 # Application definition

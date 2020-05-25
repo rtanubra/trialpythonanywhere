@@ -2,7 +2,9 @@ from django.shortcuts import render
 
 # Create your views here.
 from .models import (
-    Owner)
+    Owner
+)
 
 def hello(request):
-    return render(request,'basic/hello.html')
+    owners = Owner.objects.all()
+    return render(request,'basic/hello.html',{'owners':owners})
